@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyadmin"
+version = "0.0.0"
+description = "Python admin tools"
+requires-python = ">= 3.10"
+license = {file = "LICENSE"}
+authors = [{name = "bahnk"},]
+maintainers = [{name = "bahnk", email = "nourdinebah@gmail.com"},]
+readme = {file = "README.md", content-type="text/markdown"}
+dependencies = ["click >= 8.1.3", "urllib3 >= 1.26.12", "pandas >= 1.5.3"]
+classifiers = [
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.19",
+]
+
+[project.urls]
+Home-page = "https://github.com/bahnk/pyadmin"
+

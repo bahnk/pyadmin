@@ -1,0 +1,12 @@
+AES
+PBKDF2
+base64
+bs4
+click
+ebooklib
+libtorrent
+networkx
+pandas
+setuptools
+sqlite3
+win32crypt
